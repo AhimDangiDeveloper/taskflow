@@ -1,0 +1,23 @@
+# dependencies
+node_modules
+
+# builds
+dist
+*.tsbuildinfo
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+
+# test and caches
+coverage
+.vite
+
+# OS
+.DS_Store
+Thumbs.db
